@@ -12,9 +12,14 @@ function calculateDifference(firstNumber,secondNumber){
  function calculateProduct(firstNumber,secondNumber){
     return firstNumber*secondNumber
  }
+ function calculateQuotient(firstNumber,secondNumber){
+    return firstNumber/secondNumber
+ }
 
+ 
 console.log(calculateDifference(firstInput,secondInput))
 console.log(calculateSum(firstInput,secondInput))
 console.log(calculateProduct(firstInput,secondInput))
+console.log(calculateQuotient(firstInput,secondInput))
 
 
